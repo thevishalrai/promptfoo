@@ -934,6 +934,17 @@
         },
         "contextTransform": {
           "type": "string"
+        },
+        "fallback": {
+          "anyOf": [
+            {
+              "type": "string",
+              "const": "next"
+            },
+            {
+              "type": "boolean"
+            }
+          ]
         }
       },
       "required": ["type"],
