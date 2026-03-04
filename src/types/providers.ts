@@ -302,5 +302,6 @@ export interface DefaultProviders {
   moderationProvider: ApiProvider;
   suggestionsProvider: ApiProvider;
   synthesizeProvider: ApiProvider;
+  videoGradingProvider?: ApiProvider;
   webSearchProvider?: ApiProvider;
 }
