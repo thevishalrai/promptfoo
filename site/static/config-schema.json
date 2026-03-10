@@ -2867,6 +2867,9 @@
         },
         "silent": {
           "type": "boolean"
+        },
+        "resume": {
+          "type": "boolean"
         }
       },
       "additionalProperties": false
